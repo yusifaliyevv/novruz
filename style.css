@@ -1,0 +1,38 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#novruz{
+    /* background-image: url(images/ori_3730287_lo1z6tltnog65rige6ux92ohy96qfqlklfqikaac_novruz-bayram-semeni.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: beige;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.padd{
+    font-size: larger;
+}
+
+.tongal{
+    margin-bottom: 50px;
+}
+
+.semeni{
+    background-image: url(images/ori_3730287_lo1z6tltnog65rige6ux92ohy96qfqlklfqikaac_novruz-bayram-semeni.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
